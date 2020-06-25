@@ -55,7 +55,7 @@ Warnings:
    ? Given the word "hello"
 [...]
 ```
-It just ignore the file, and say nothing.
+It just ignore the file, and say nothing. It become obvious if you add `throw 'e'` at the start of `steps.ts` file, that is is not read.
 Same for:
 ```
     "cucumberIgnoreFileToo": "cucumber-js --require-module ts-node/register --require 'features/helpers/steps.ts'"
