@@ -7,7 +7,7 @@ npm i --save cucumber
 npm i --save ts-node
 npm i -D @types/cucumber
 ```
-I have added the features folder and it's content. Nothing more.
+I have added the features folder and it's content, also few npm scripts seen bellow. Nothing more.
 
 ---
 
