@@ -22,9 +22,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "cucumber": "cucumber-js --require-module ts-node/register --require features/**/*.ts",
+    "cucumberTypescriptNo": "cucumber-js --require-module ts-node/register --require features/**/*.ts",
     "cucumberIgnoreFile": "cucumber-js --require-module ts-node/register --require 'features/**/*.ts'",
-    "cucumberIgnoreFileToo": "cucumber-js --require-module ts-node/register --require 'features/helpers/steps.ts'"
+    "cucumberIgnoreFileToo": "cucumber-js --require-module ts-node/register --require 'features/helpers/steps.ts'",
+    "cucumberOK": "cucumber-js --require features/tests.setup.js --require features/helpers/steps.ts",
+    "cucumberIgnoreFileTS": "cucumber-js --require features/tests.setup.js --require 'features/helpers/steps.ts'"
   },
   "eslintConfig": {
     "extends": "react-app"

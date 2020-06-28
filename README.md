@@ -62,3 +62,6 @@ Same for:
 ```
 Remove the `'` and you'll be fine. https://github.com/cucumber/cucumber-js/blob/master/docs/cli.md#transpilers doc mention
 that line with `'`, but that doesn't work.
+
+----
+UPDATE 28 june: Quote issue still here, using git bash on window.
